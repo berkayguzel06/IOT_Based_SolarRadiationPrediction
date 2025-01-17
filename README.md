@@ -1,5 +1,7 @@
 # IOT based solar radiation prediction with machine learning models
 
+![image](https://github.com/user-attachments/assets/49a77c77-7b72-4c66-8333-3fafab6d450e)
+
 In today's rapidly advancing technological landscape, integrating Internet of Things (IoT) devices with machine learning (ML) models offers unprecedented possibilities. This article delves into a groundbreaking project aimed at predicting solar radiation using IoT devices. This project leverages technology to monitor environmental parameters and predict hazardous solar radiation conditions in real time with BM280 sensor and ESP32 dev board. We will explore the journey, methodology, and outcomes of this project.
 
 ## Introduction
@@ -9,6 +11,8 @@ The project focuses on real-time detection and prediction of solar radiation, co
 ### Hardware Components
 * BME280 Sensor: Monitors humidity, temperature, and pressure to capture environmental conditions.
 * ESP32 Microcontroller: Facilitates data acquisition and transmission to the cloud platform.
+
+![image](https://github.com/user-attachments/assets/4f1b9271-147f-494a-9c30-937d2c9eedaf)
 
 ## Software Ecosystem
 * Programming Environment: ESP32 microcontrollers were programmed using Thonny IDE and micropython.
@@ -20,8 +24,9 @@ Sensor Integration: The BME280 sensors were connected to the ESP32 microcontroll
 Sensor and ESP32 ConnectionData Transmission and Storage: Sensor data was transmitted to ThingSpeak, enabling real-time visualization and storage.
 ThingSpeak Cloud Platform Data VisualizationMachine Learning Model Development: The collected data served as the training set for the ML model, focusing on key features like radiation levels, temperature, and humidity. The model was trained and validated for accuracy before deployment.
 Model Training EvaluationsCloud Integration: The trained model was deployed on Google Cloud using Flask API, ensuring seamless integration with ThingSpeak for real-time predictions. You can find the Docker file and Flask API codes from GitHub. We need to build a Flask API for to use .pth model file with python scripts, to ensure that and to satify the core function of IOT projects anywhere - anytime - anyplace we have to build our Flask API in Google Cloud.
+
+![image](https://github.com/user-attachments/assets/07144a17-5c91-43d6-93fe-1c5a289a0855)
+
 Mobile Application: A user-friendly app was developed to display radiation predictions and alert users to critical conditions.
-Mobile App VisualAchievements
-Successful Integration: The IoT system, cloud platform, and ML model were seamlessly integrated, enabling real-time solar radiation predictions.
-Mobile Accessibility: The mobile app provided users with easy access to data and alerts, enhancing the system's usability.
-Scalable Solution: The project laid a solid foundation for further developments in environmental monitoring systems.
+
+![image](https://github.com/user-attachments/assets/5145be76-3c08-4d37-b4ac-ee253684e3d7)
