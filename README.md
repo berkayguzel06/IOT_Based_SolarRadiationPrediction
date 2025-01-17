@@ -1,5 +1,7 @@
 # IOT based solar radiation prediction with machine learning models
 
+| You can read the full article from here https://medium.com/@berkayguzel43/predict-solar-radiation-with-iot-device-2ecfb4ec6b7f
+
 ![image](https://github.com/user-attachments/assets/49a77c77-7b72-4c66-8333-3fafab6d450e)
 
 In today's rapidly advancing technological landscape, integrating Internet of Things (IoT) devices with machine learning (ML) models offers unprecedented possibilities. This article delves into a groundbreaking project aimed at predicting solar radiation using IoT devices. This project leverages technology to monitor environmental parameters and predict hazardous solar radiation conditions in real time with BM280 sensor and ESP32 dev board. We will explore the journey, methodology, and outcomes of this project.
